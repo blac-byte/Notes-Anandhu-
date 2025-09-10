@@ -16,9 +16,11 @@ def index():
         return render_template('index.html') 
         ```
 
+By default the method is GET. 
 
+- `request.args.get("field")` → for `GET` requests (query string).
 
-
+- `request.form.get("field")` → for `POST` requests (form body).
 
 
 # References
