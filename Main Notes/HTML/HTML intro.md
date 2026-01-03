@@ -10,13 +10,6 @@ There exists HTML and then CSS.
 If HTML is the bones, then CSS is the muscles that give the definition to the frame. So write in HTML, stylize in CSS.
 
 Save the file as 'index.html' since that is the default file browsers search to load.
-## Ctrl + S to save HTML file
-
-
-# Boiler plate HTML
-This is the repeating code which basically goes over every specification that is needed for a browser to load the HTML. So it would be always repeated in every program
-
-
 
 
 # Body of HTML
@@ -36,14 +29,15 @@ Break - ```<br>```
 Entry - ```<input>```
 Link - ```<a href='some form of link'> </a>```
 
+# Boiler plate HTML
+This is the repeating code which basically goes over every specification that is needed for a browser to load the HTML. So it would be always repeated in every program
+
+# Template inheritance
+The aim is to avoid boiler plate codes. Who wants to keep rewriting the same old code. To avoid that you assign a master, i.e. a format that will be same for all the other html files.
+
+Find the syntax yourself for flask, ya fauk !
 
 
-Now tags can have different attributes, basically specifying the parameters. For example 
-This code '```<button type='submit'>Button</button>```'  created the button below
-
-<button type='submit'>Button</button>
-
-The word type here is an attribute, specifying that on the click of the button, submit all the inputs to the server/program.
 
 
 
